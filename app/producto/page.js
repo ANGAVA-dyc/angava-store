@@ -1,11 +1,14 @@
 import estilo from "../estaticos/estilos/detalleProducto.module.css"
+import DetalleProducto from "../componentes/DetalleProducto";
 
-function detalleProducto() {
+function Producto() {
     return ( 
     <>
-    <h1 className={estilo.textoRojo}>Soy el detalle de un producto</h1> 
+    <div className={estilo.contenedor}>
+    <DetalleProducto></DetalleProducto>
+    </div>
     </>
     );
 }
 
-export default detalleProducto;
+export default Producto;
