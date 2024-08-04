@@ -6,7 +6,7 @@ function Header() {
     <header className={estilo.header}>
     <nav>
       <Link href="/" className={estilo.navBtn} >Home</Link>
-      <Link href="/producto" className={estilo.navBtn} >Producto</Link>
+      <Link href="/productos" className={estilo.navBtn} >Productos</Link>
       <Link href="/laboratorio" className={estilo.navBtn} >Laboratorio</Link>
       <Link href="/login" className={estilo.navBtn} >Inicio</Link>
       <Link href="/registro" className={estilo.navBtn} >Registrate</Link>
